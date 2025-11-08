@@ -1,0 +1,29 @@
+{
+  "name": "sino-korean-js",
+  "version": "0.1.1",
+  "description": "Convert numbers to Sino-Korean numerals and back",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "sideEffects": false,
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "korean",
+    "hangul",
+    "numerals",
+    "sino-korean",
+    "number-to-words",
+    "i18n"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "node test/basic.test.js"
+  }
+}
